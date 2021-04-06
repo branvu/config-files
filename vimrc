@@ -30,14 +30,14 @@ if filereadable($HOME.'/.vim/bundle/Vundle.vim/autoload/vundle.vim')
 
   " let Vundle manage Vundle, required
   Plugin 'gmarik/Vundle.vim'
-
+  Plugin 'davidhalter/jedi-vim'
   " YCM (You Complete Me) does tab completion.
   " See https://github.com/Valloric/YouCompleteMe
   " YCM requires python3 support, and the default Mac vim doesn't have python3
   " support.
-  if has('python3')
-    Plugin 'Valloric/YouCompleteMe'
-  endif
+  "  if has('python3')
+   " Plugin 'Valloric/YouCompleteMe'
+  "endif
 
   " Solarized color scheme
   " http://ethanschoonover.com/solarized
